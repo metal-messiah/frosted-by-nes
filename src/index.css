@@ -109,7 +109,7 @@ code {
 }
 
 .contain-width {
-  width: 75%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -148,6 +148,10 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
+}
+
+.grow{
+  height: auto;
 }
 
 .double {
@@ -287,7 +291,7 @@ a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .bold{
     font-weight: bolder;
     font-size: 36pt;
