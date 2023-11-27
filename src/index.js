@@ -17,8 +17,6 @@ const options = {
 }
 new BrowserAgent(options)
 
-
-
 ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
 );

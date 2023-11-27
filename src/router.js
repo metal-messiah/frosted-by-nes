@@ -7,6 +7,22 @@ import Pricing from "./components/Pricing";
 
 export const router = createBrowserRouter([
     {
+      path: "/docs",
+      element:<Layout><Main /></Layout>,
+    },
+    {
+      path: "/docs/about",
+      element:<Layout><About /></Layout>,
+    },
+    {
+      path: "/docs/pricing",
+      element:<Layout><Pricing /></Layout>,
+    },
+    {
+      path: "/docs/contact",
+      element:<Layout><Contact /></Layout>,
+    },
+    {
       path: "/",
       element:<Layout><Main /></Layout>,
     },
