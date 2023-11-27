@@ -13,7 +13,7 @@ export default function About(){
             </div>
     }>
         <ImageContainer classes='full' children={[
-                {src: 'headshot.jpg', text: ``},
+                {src: 'headshot.JPG', text: ``},
                 ]}>
             </ImageContainer>
 
