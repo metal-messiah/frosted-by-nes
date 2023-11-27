@@ -5,8 +5,9 @@ import reportWebVitals from './reportWebVitals';
 
 import { RouterProvider } from 'react-router-dom';
 
-import { BrowserAgent } from '@newrelic/browser-agent/loaders/browser-agent';
 import { router } from './router';
+
+import { BrowserAgent } from '@newrelic/browser-agent/loaders/browser-agent';
 
 const options = {
   init:{distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}},
