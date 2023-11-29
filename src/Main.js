@@ -17,9 +17,9 @@ function Main() {
         </>} >
       </Plain>
       <ImageContainer classes='full' children={[
-        {src: 'lamberth_transparent.png', text: 'CAKES', classes:'contain-height', link:'/pricing#6-inch-rounds'},
-        {src: 'tildeath.png', text: 'SPECIALTY CAKES', classes:'contain-height', link: '/pricing#custom-cakes'},
-        {src: 'cutiecakes.png', text: 'CUTIE CAKES', classes:'contain-height', link: '/pricing#cutie-cakes'},
+        {src: process.env.PUBLIC_URL+'/lamberth_transparent.png', text: 'CAKES', classes:'contain-height', link:'/pricing#6-inch-rounds'},
+        {src: process.env.PUBLIC_URL+'/tildeath.png', text: 'SPECIALTY CAKES', classes:'contain-height', link: '/pricing#custom-cakes'},
+        {src: process.env.PUBLIC_URL+'/cutiecakes.png', text: 'CUTIE CAKES', classes:'contain-height', link: '/pricing#cutie-cakes'},
         ]}>
       </ImageContainer>
     </div>

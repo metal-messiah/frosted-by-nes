@@ -13,7 +13,7 @@ export default function About(){
             </div>
     }>
         <ImageContainer classes='full' children={[
-                {src: 'nes-headshot.jpg', text: ``},
+                {src: process.env.PUBLIC_URL + '/nes-headshot.jpg', text: ``},
                 ]}>
             </ImageContainer>
 

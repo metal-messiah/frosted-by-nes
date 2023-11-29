@@ -18,11 +18,6 @@ const options = {
 }
 new BrowserAgent(options)
 
-// ReactDOM.createRoot(document.getElementById("root")).render(
-//     <RouterProvider router={router} />
-// );
-
-
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
   hydrate(    <RouterProvider router={router} />
