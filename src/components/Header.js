@@ -10,9 +10,9 @@ export default function Header(){
                 <img src={`${process.env.PUBLIC_URL}/logo.jpeg`} onClick={() => window.location = '/'} alt="logo" className='contain-height pointer-hover'/>
                 <div className='flex evenly'>
                     {/* <HeaderButton linkTo="/" text="HOME" /> */}
-                    <HeaderButton linkTo="/about" text="ABOUT" />
-                    <HeaderButton linkTo="/pricing" text="PRICING" />
-                    <HeaderButton linkTo="/contact" text="CONTACT" />
+                    <HeaderButton linkTo="/about/" text="ABOUT" />
+                    <HeaderButton linkTo="/pricing/" text="PRICING" />
+                    <HeaderButton linkTo="/contact/" text="CONTACT" />
                 </div>
             </div>
         </>

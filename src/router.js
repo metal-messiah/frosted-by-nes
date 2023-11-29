@@ -7,19 +7,19 @@ import Pricing from "./components/Pricing";
 
 export const router = createBrowserRouter([
     {
-      path: "/docs",
+      path: "/docs/",
       element:<Layout><Main /></Layout>,
     },
     {
-      path: "/docs/about",
+      path: "/docs/about/",
       element:<Layout><About /></Layout>,
     },
     {
-      path: "/docs/pricing",
+      path: "/docs/pricing/",
       element:<Layout><Pricing /></Layout>,
     },
     {
-      path: "/docs/contact",
+      path: "/docs/contact/",
       element:<Layout><Contact /></Layout>,
     },
     {
@@ -27,15 +27,15 @@ export const router = createBrowserRouter([
       element:<Layout><Main /></Layout>,
     },
     {
-      path: "/about",
+      path: "/about/",
       element:<Layout><About /></Layout>,
     },
     {
-      path: "/pricing",
+      path: "/pricing/",
       element:<Layout><Pricing /></Layout>,
     },
     {
-      path: "/contact",
+      path: "/contact/",
       element:<Layout><Contact /></Layout>,
     },
     {
