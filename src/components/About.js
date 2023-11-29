@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import ImageContainer from "./ImageContainer";
 import Plain from "./Plain";
+import { Helmet } from "react-helmet";
 
 export default function About(){
     return(
         <div className="App">
+            <Helmet>
+                <title>About Nes | The Decorator of Frosted By Nes | Utah</title>
+                <link rel="canonical" href="https://frostedbynes.com/about/" />
+                <meta name="description" content="Janesa AKA Nes is a decorator and baker with celiac disease based in Salt Lake City, Utah that makes gluten free buttercream cakes." />
+            </Helmet>
             <Plain title="ABOUT FROSTED BY NES" titleClasses="logo-alt-pink-color pink-shadow" classes='double margin' secondaryText={
             <div className="logo-alt-pink-color">
                 <div>Hi! I'm Janesa AKA "Nes", and I created <span className='logo-orange-color italic'>Frosted By Nes</span> to share my love of decorating custom buttercream cakes. I worked in a bakery as a cake decorator where I soon realized that I had a talent for creating beautiful and delicious cakes outside the norms of a typical bakery selection. </div>

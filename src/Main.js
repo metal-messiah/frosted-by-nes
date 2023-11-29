@@ -3,10 +3,16 @@ import Plain from './components/Plain';
 import ImageContainer from './components/ImageContainer';
 import { Link } from 'react-router-dom';
 import InstagramIcon from './components/icons/InstagramIcon';
+import { Helmet } from 'react-helmet';
 
 function Main() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Frosted By Nes | Gluten Free Buttercream Cakes | Utah</title>
+        <link rel="canonical" href="https://frostedbynes.com/" />
+        <meta name="description" content="Gluten free buttercream cakes made with fresh ingredients and hand-piped decorations. Located in Salt Lake City, Utah - We can make your dreams become cake!" />
+      </Helmet>
       <Frosting componentSize='full'>
         CUSTOM BUTTERCREAM CAKES
       </Frosting>

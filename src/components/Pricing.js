@@ -1,9 +1,15 @@
+import { Helmet } from "react-helmet";
 import Description from "./Description";
 import Plain from "./Plain";
 
 export default function Pricing(){
     return(
         <div className="App">
+            <Helmet>
+                <title>Cake Pricing | Gluten Free Buttercream Cakes | Utah</title>
+                <link rel="canonical" href="https://frostedbynes.com/pricing/" />
+                <meta name="description" content="Our selection of gluten free cakes feature affordable pricing and can be customized to match your vision." />
+            </Helmet>
             <Plain classes='logo-purple-bg quarter margin' secondaryText="">
                 PRICING
             </Plain>
