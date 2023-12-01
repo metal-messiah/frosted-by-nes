@@ -4,6 +4,7 @@ import Plain from "./Plain";
 import EmailIcon from "./icons/EmailIcon";
 import InstagramIcon from "./icons/InstagramIcon";
 import PhoneIcon from "./icons/PhoneIcon";
+import InstagramLink from "./InstagramLink";
 
 export default function Contact(){
     return(
@@ -16,7 +17,7 @@ export default function Contact(){
             <Plain title="CONTACT" classes='logo-purple-bg three-quarters margin' secondaryText="Feel free to reach out to me directly to help get your custom cake needs met!" >
                 <Description name={<EmailIcon />} text={<a href="mailto:frostedbynes@gmail.com">frostedbynes@gmail.com</a>} />
                 <Description name={<PhoneIcon />} text="‪(385) 202-3285" />
-                <Description name={<InstagramIcon />} text={<a href="https://instagram.com/frosted.by.nes">@frosted.by.nes</a>} />
+                <Description name={<InstagramIcon />} text={<InstagramLink>@frosted.by.nes</InstagramLink>} />
             </Plain>
         </div>
     )
