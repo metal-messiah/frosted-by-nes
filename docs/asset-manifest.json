@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f7919d2.css",
-    "main.js": "/static/js/main.ee70442e.js",
+    "main.css": "/static/css/main.0c56da66.css",
+    "main.js": "/static/js/main.516f0854.js",
     "async-api.js": "/static/js/async-api.9e0ab637.chunk.js",
     "session-manager.js": "/static/js/session-manager.b638c68e.chunk.js",
     "lazy-feature-loader.js": "/static/js/lazy-feature-loader.5c5bdd8b.chunk.js",
@@ -24,8 +24,8 @@
     "static/media/yanone.ttf": "/static/media/yanone.7c078f1d4e1603d2b1a4.ttf",
     "static/media/Satisfy-Regular.ttf": "/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
     "index.html": "/index.html",
-    "main.6f7919d2.css.map": "/static/css/main.6f7919d2.css.map",
-    "main.ee70442e.js.map": "/static/js/main.ee70442e.js.map",
+    "main.0c56da66.css.map": "/static/css/main.0c56da66.css.map",
+    "main.516f0854.js.map": "/static/js/main.516f0854.js.map",
     "async-api.9e0ab637.chunk.js.map": "/static/js/async-api.9e0ab637.chunk.js.map",
     "session-manager.b638c68e.chunk.js.map": "/static/js/session-manager.b638c68e.chunk.js.map",
     "lazy-feature-loader.5c5bdd8b.chunk.js.map": "/static/js/lazy-feature-loader.5c5bdd8b.chunk.js.map",
@@ -45,7 +45,7 @@
     "661.f8eb0a73.chunk.js.map": "/static/js/661.f8eb0a73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7919d2.css",
-    "static/js/main.ee70442e.js"
+    "static/css/main.0c56da66.css",
+    "static/js/main.516f0854.js"
   ]
 }
