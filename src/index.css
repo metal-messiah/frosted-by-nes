@@ -290,8 +290,12 @@ a {
   font-style: italic;
 }
 
+.mobile-squish{
+  margin-bottom: inherit;
+}
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 700px) {
   .bold{
     font-weight: bolder;
     font-size: 36pt;
@@ -321,4 +325,42 @@ a {
     box-shadow: none;
   }
   
+  .mobile-squish {
+    margin-bottom: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .bold{
+    font-weight: bolder;
+    font-size: 30pt;
+  }
+  
+  .bold-mid {
+    font-weight: bolder;
+    font-size: 20pt;
+  }
+  
+  .bold-small{
+    font-weight: bolder;
+    font-size: 16pt;
+  }
+  
+  .bold-smaller{
+    font-weight: bolder;
+    font-size: 10pt;
+  }
+  
+  .regular{
+    font-weight: normal;
+    font-size: 20pt;
+  }
+
+  .image-shadow {
+    box-shadow: none;
+  }
+  
+  .mobile-squish {
+    margin-bottom: 800px;
+  }
 }
