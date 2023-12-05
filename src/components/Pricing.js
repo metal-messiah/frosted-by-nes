@@ -13,7 +13,7 @@ export default function Pricing(){
             <Plain classes='logo-purple-bg quarter margin' secondaryText="">
                 PRICING
             </Plain>
-            <Plain hash='cutie-cakes' title={`4 INCH TRIPLE LAYER "CUTIE CAKES"`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our 4 inch round 3 layer "lunchbox" style cakes make great party favors or personalized indivual servings for 1-4 people while remaining customizable.`}>
+            <Plain hash='cutie-cakes' title={`4 INCH TRIPLE LAYER "CUTIE CAKES"`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our 4 inch round 3 layer "lunchbox" style cakes make great party favors or personalized individual servings for 1-4 people while remaining customizable.`}>
                 <Description name="Single" price="$10" />
                 <Description name="Half Dozen" price="$50" />
             </Plain>

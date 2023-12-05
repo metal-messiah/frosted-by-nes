@@ -33,7 +33,7 @@ function Main() {
       </Plain>
       <Plain title="UPCOMING EVENTS" classes='logo-alt-pink-bg grow margin' secondaryText='Catch us at live events'>
         <div className="bold-mid">
-          • 12/9/2023 | <Link className="logo-purple-color pointer-hover" to="https://millcreekcommon.org/">Holiday Shoppes Saturday Market</Link> | 11-3pm
+          • 12/9/2023 | <Link className="logo-purple-color pointer-hover" to="https://millcreekcommon.org/">Holiday Shoppes Saturday Market</Link><br />Millcreek City Hall Public Market | 11-3pm
         </div>
       </Plain>
     </div>
