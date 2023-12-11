@@ -12,6 +12,10 @@ body {
   color: #724777;
 }
 
+iframe{
+  margin: 0 auto !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -101,6 +105,10 @@ code {
 
 .padded {
   padding: 10px;
+}
+
+.padded-extra {
+  padding: 30px;
 }
 
 .contain-height {

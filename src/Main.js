@@ -15,7 +15,7 @@ function Main() {
         <meta name="description" content="Gluten free buttercream cakes made with fresh ingredients and hand-piped decorations. Located in Salt Lake City, Utah - We can make your dreams become cake!" />
       </Helmet>
       <Frosting componentSize='grow'>
-        GLUTEN FREE BUTTERCREAM CAKES
+        CUSTOM BUTTERCREAM CAKES
       </Frosting>
       <ImageContainer classes='full mobile-squish' children={[
         {src: process.env.PUBLIC_URL+'/lamberth_transparent.png', text: 'CAKES', classes:'contain-height', link:'/pricing#6-inch-rounds', alt:"Lambeth Style Buttercream Cake"},
@@ -31,11 +31,11 @@ function Main() {
           </div>
         </>} >
       </Plain>
-      <Plain title="UPCOMING EVENTS" classes='logo-alt-pink-bg grow margin' secondaryText='Catch us at live events'>
+      {/* <Plain title="UPCOMING EVENTS" classes='logo-alt-pink-bg grow margin' secondaryText='Catch us at live events'>
         <div className="bold-mid">
           • 12/9/2023 | <Link className="logo-purple-color pointer-hover" to="https://millcreekcommon.org/">Holiday Shoppes Saturday Market</Link><br />Millcreek City Hall Public Market | 11-3pm
         </div>
-      </Plain>
+      </Plain> */}
     </div>
   );
 }
