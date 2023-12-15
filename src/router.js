@@ -4,19 +4,21 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Layout from "./components/Layout";
 import Pricing from "./components/Pricing";
-import Photos from "./components/Photos";
+import Resources from "./components/Resources";
 import Disclosure from "./components/Disclosure";
 import Privacy from "./components/Privacy";
+import Care from "./components/Care";
 
 const routes = [
   {path: '', component: <Main />},
   {path: 'about/', component: <About />}, 
   {path: 'pricing/', component: <Pricing />}, 
   {path: 'contact/', component: <Contact />}, 
-  {path: 'photos/', component: <Photos />},
-  {path: '*', component: <Navigate to="/"/>},
+  {path: 'resources/', component: <Resources />},
   {path: 'disclosure/', component: <Disclosure />}, 
-  {path: 'privacy/', component: <Privacy />}
+  {path: 'privacy/', component: <Privacy />},
+  {path: 'care/', component: <Care />},
+  {path: '*', component: <Navigate to="/"/>},
 ]
 
 const routeMap = routes.map(route => ([

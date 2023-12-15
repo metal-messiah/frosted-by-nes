@@ -12,7 +12,7 @@ export default function Header(){
                     <HeaderButton linkTo="/about/" text="ABOUT" />
                     <HeaderButton linkTo="/pricing/" text="PRICING" />
                     <HeaderButton linkTo="/contact/" text="CONTACT" />
-                    <HeaderButton linkTo="/photos/" text="PHOTOS" />
+                    <HeaderButton linkTo="/resources/" text="RESOURCES" />
                 </div>
             </div>
         </>
