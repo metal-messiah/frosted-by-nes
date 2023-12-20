@@ -10,7 +10,7 @@ export default function Header(){
                 <img src={`${process.env.PUBLIC_URL}/logo.jpeg`} onClick={() => window.location = '/'} alt="Frosted By Nes Logo" className='contain-height pointer-hover'/>
                 <div className='flex evenly'>
                     <HeaderButton linkTo="/about/" text="ABOUT" />
-                    <HeaderButton linkTo="/pricing/" text="PRICING" />
+                    <HeaderButton linkTo="https://forms.gle/m6zgFcMAofR161vB9" text="ORDER" />
                     <HeaderButton linkTo="/contact/" text="CONTACT" />
                     <HeaderButton linkTo="/resources/" text="RESOURCES" />
                 </div>

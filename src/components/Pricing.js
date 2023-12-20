@@ -1,17 +1,18 @@
 import { Helmet } from "react-helmet";
 import Description from "./Description";
 import Plain from "./Plain";
+import { Link } from "react-router-dom";
 
 export default function Pricing(){
     return(
         <div className="App">
             <Helmet>
-                <title>Cake Pricing | Gluten Free Buttercream Cakes | Utah</title>
+                <title>Cake Pricing | Traditional and Gluten Free Cakes | Utah</title>
                 <link rel="canonical" href="https://frostedbynes.com/pricing/" />
-                <meta name="description" content="Our selection of gluten free cakes feature affordable pricing and can be customized to match your vision." />
+                <meta name="description" content="Our selection of traditional and gluten free cakes feature affordable pricing and can be customized to match your vision." />
             </Helmet>
-            <Plain classes='logo-purple-bg quarter margin' secondaryText="">
-                PRICING
+            <Plain classes='logo-purple-bg margin' title="PRICING">
+                <Link to="https://forms.gle/m6zgFcMAofR161vB9" >Click To Order</Link>
             </Plain>
             <Plain hash='cutie-cakes' title={`4 INCH DOUBLE LAYER "CUTIE CAKES"`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our 4 inch round 3 layer "lunchbox" style cakes make great party favors or personalized individual servings for 1-4 people while remaining customizable.`}>
                 <hr />

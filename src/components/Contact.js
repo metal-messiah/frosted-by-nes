@@ -12,7 +12,7 @@ export default function Contact(){
             <Helmet>
                 <title>Contact Us | Order Now or View Our Socials | Utah</title>
                 <link rel="canonical" href="https://frostedbynes.com/contact/" />
-                <meta name="description" content="Contact us by phone, email or social media. Submit a request to order or check out our portfolio of gluten free buttercream cakes." />
+                <meta name="description" content="Contact us by phone, email or social media. Submit a request to order or check out our portfolio of custom buttercream cakes." />
             </Helmet>
             <Plain classes='logo-purple-bg' secondaryText='We are located in the Sugar House neighborhood of Salt Lake City, Utah. We serve customers throughout the Wasatch Front, and regularly attend local events like markets and conventions! We hope to see you soon!'>
             </Plain>

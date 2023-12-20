@@ -10,6 +10,7 @@ export default function Footer(){
                 <div className='flex center certer-horiz'>
                     <HeaderButton linkTo="/privacy/" text="PRIVACY" />
                     <HeaderButton linkTo="/disclosure/" text="DISCLOSURE" />
+                    <HeaderButton linkTo="/contact/" text="CONTACT" />
                 </div>
             </div>
         </>
