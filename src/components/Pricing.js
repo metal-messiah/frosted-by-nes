@@ -14,7 +14,11 @@ export default function Pricing(){
             <Plain classes='logo-purple-bg margin' title="PRICING">
                 <Link to="https://forms.gle/m6zgFcMAofR161vB9" >Click To Order</Link>
             </Plain>
-            <Plain hash='cutie-cakes' title={`4 INCH DOUBLE LAYER "CUTIE CAKES"`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our 4 inch round 3 layer "lunchbox" style cakes make great party favors or personalized individual servings for 1-4 people while remaining customizable.`}>
+            <Plain hash='cupcakes' title={`CUPCAKES`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our light and fluffy cupcakes can be customized to look or taste to match any occasion.`}>
+                <hr />
+                <Description name="Price Per Dozen" price="$25" />
+            </Plain>
+            <Plain hash='cutie-cakes' title={`4 INCH DOUBLE LAYER "CUTIE CAKES"`} classes='logo-purple-bg three-quarter margin top' secondaryText={`Our 4 inch round 3 layer "lunchbox" style cakes make great party favors or personalized individual servings for 2-4 people while remaining customizable.`}>
                 <hr />
                 <div className="bold-small padded">(4" x 2" Per Layer)</div>
                 <Description name="Single" price="$10" />

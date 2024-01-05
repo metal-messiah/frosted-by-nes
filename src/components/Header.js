@@ -11,7 +11,7 @@ export default function Header(){
                 <div className='flex evenly'>
                     <HeaderButton linkTo="/about/" text="ABOUT" />
                     <HeaderButton linkTo="https://forms.gle/m6zgFcMAofR161vB9" text="ORDER" />
-                    <HeaderButton linkTo="/contact/" text="CONTACT" />
+                    <HeaderButton linkTo="/pricing/" text="PRICING" />
                     <HeaderButton linkTo="/resources/" text="RESOURCES" />
                 </div>
             </div>
