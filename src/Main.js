@@ -31,6 +31,121 @@ function Main() {
           </div>
         </>} >
       </Plain>
+      <Plain title="WHO WE SERVE" classes='logo-alt-pink-bg grow margin' secondaryText={<>
+          We offer our services for <span className="logo-purple-color">pickup</span> and <span className="logo-purple-color">delivery</span> across northern Utah.
+          <div className='flex space-evenly top center-horiz'>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Davis County, Utah</div>
+              <div>Bountiful</div>
+              <div>Centerville</div>
+              <div>Clearfield</div>
+              <div>Clinton</div>
+              <div>Farmington</div>
+              <div>Fruit Heights</div>
+              <div>Kaysville</div>
+              <div>Layton</div>
+              <div>North Salt Lake</div>
+              <div>South Weber</div>
+              <div>Sunset</div>
+              <div>Syracuse</div>
+              <div>West Bountiful</div>
+              <div>West Point</div>
+              <div>Woods Cross</div>
+            </div>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Salt Lake County, Utah</div>
+              <div>Bluffdale</div>
+              <div>Cottonwood Heights</div>
+              <div>Draper</div>
+              <div>Herriman</div>
+              <div>Holladay</div>
+              <div>Midvale</div>
+              <div>Millcreek</div>
+              <div>Murray</div>
+              <div>Riverton</div>
+              <div>Salt Lake City</div>
+              <div>Sandy</div>
+              <div>South Jordan</div>
+              <div>South Salt Lake</div>
+              <div>Taylorsville</div>
+              <div>West Jordan</div>
+              <div>West Valley City</div>
+            </div>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Summit County, Utah</div>
+              <div>Coalville</div>
+              <div>East Basin</div>
+              <div>Echo</div>
+              <div>Francis</div>
+              <div>Henefer</div>
+              <div>Hoytsville</div>
+              <div>Kamas</div>
+              <div>Marion</div>
+              <div>Oakley</div>
+              <div>Park City</div>
+              <div>Peoa</div>
+              <div>Samak</div>
+              <div>Snyderville</div>
+              <div>Wanship</div>
+              <div>Woodland</div>
+            </div>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Utah County, Utah</div>
+              <div>Alpine</div>
+              <div>American Fork</div>
+              <div>Cedar Hills</div>
+              <div>Eagle Mountain</div>
+              <div>Elk Ridge</div>
+              <div>Highland</div>
+              <div>Lehi</div>
+              <div>Lindon</div>
+              <div>Mapleton</div>
+              <div>Orem</div>
+              <div>Payson</div>
+              <div>Pleasant Grove</div>
+              <div>Provo</div>
+              <div>Salem</div>
+              <div>Santaquin</div>
+              <div>Saratoga Springs</div>
+              <div>Spanish Fork</div>
+              <div>Springville</div>
+              <div>Vineyard</div>
+              <div>Woodland Hills</div>
+            </div>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Weber County, Utah</div>
+              <div>Farr West</div>
+              <div>Harrisville</div>
+              <div>Huntsville</div>
+              <div>Hooper</div>
+              <div>Marriott Slaterville</div>
+              <div>North Ogden</div>
+              <div>Ogden</div>
+              <div>Plain City</div>
+              <div>Pleasant View</div>
+              <div>Riverdale</div>
+              <div>Roy</div>
+              <div>South Ogden</div>
+              <div>Uintah</div>
+              <div>Washinton Terrace</div>
+              <div>West Haven</div>
+            </div>
+            <div className="padded" style={{flex: 1}}>
+              <div className="bold-small logo-purple-color">Wasatch County, Utah</div>
+              <div>Charleston</div>
+              <div>Daniel</div>
+              <div>Heber City</div>
+              <div>Hideout</div>
+              <div>Independence</div>
+              <div>Interlaken</div>
+              <div>Midway</div>
+              <div>Soldier Summit</div>
+              <div>Wallsburg</div>
+              <div>Wildwood</div>
+            </div>
+          </div>
+        </>} >
+      </Plain>
       {/* <Plain title="UPCOMING EVENTS" classes='logo-alt-pink-bg grow margin' secondaryText='Catch us at live events'>
         <div className="bold-mid">
           • 12/9/2023 | <Link className="logo-purple-color pointer-hover" to="https://millcreekcommon.org/">Holiday Shoppes Saturday Market</Link><br />Millcreek City Hall Public Market | 11-3pm
